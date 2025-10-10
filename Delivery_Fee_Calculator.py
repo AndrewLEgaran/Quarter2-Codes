@@ -4,4 +4,5 @@ rpkm = int(input("Enter the rate per kilometer (Php): "))
 def calculate_delivery_fee():
     return globals()['Dist'] * globals()['rpkm']
 
-print("Total Delivery Fee:", calculate_delivery_fee())
+
+print("Total Delivery Fee: Php", calculate_delivery_fee())
