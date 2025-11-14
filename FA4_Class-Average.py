@@ -10,4 +10,5 @@ for t in range(1, int(studnum)+1):
     avg = allscore/subnum
     classavg += avg
     print("Average for Student", t, ":", avg)
+
 print("Class Average:", classavg/studnum)
