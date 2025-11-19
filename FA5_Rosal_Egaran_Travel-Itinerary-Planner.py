@@ -22,7 +22,7 @@ def destinechanger():
     if choice2 == "Y":
         choicemaker()
     elif choice2 == "N":
-        print("Updatedt Itinerary Plan: ")
+        print("Final Itinerary Plan: ")
         print("1. ", Destinations[0].capitalize())
         print("2. ", Destinations[1].capitalize())
         print("3. ", Destinations[2].capitalize())
@@ -72,4 +72,5 @@ else:
 
 print("Would you like to change another destination?: ")
 choice2 = input("Y/N: ")
+
 destinechanger()
